@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>내 소개 페이지</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: black;
+      /* 배경색을 검정으로 설정 */
+      color: white;
+      /* 기본 텍스트 색상을 흰색으로 설정 */
+      font-family: Arial, sans-serif;
+    }
+
+    img {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid white;
+    }
+
+    .info-text {
+      text-align: center;
+      font-size: 15px;
+      font-weight: bold;
+      padding: 10px 20px;
+      border-radius: 50px;
+    }
+
+    .text1,
+    .text2,
+    .text3,
+    .text4 {
+      float: left;
+      background-color: rgba(255, 255, 255, 0.1);
+      border: 2px solid white;
+      line-height: 1.4;
+      margin: auto;
+    }
+
+    .text1 {
+      color: #FF0000;
+      width: 170px;
+    }
+
+    .text2 {
+      width: 100px;
+      color: #00FF00;
+    }
+
+    .text3 {
+      color: #0000FF;
+    }
+
+    .text4 {
+      color: #FFFF00;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div>
+      <img src="신유승.png" alt="신유승">
+    </div>
+    <div class="info-text text1">컴퓨터소프트웨어공학과</div>
+    <div class="info-text text2">React</div>
+    <a href="https://github.com/SinYusi" class="info-text text3">GitHub</a>
+    <a href="https://yusi4781.notion.site/Study-163fe844c52648098c5bf03bbd1f6d95?pvs=74"
+      class="info-text text4">Notion</a>
+  </div>
+</body>
+
+</html>
