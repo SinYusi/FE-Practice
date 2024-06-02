@@ -4,3 +4,7 @@ function num1() {
 
   alert("a + b = " + (a + b))
 }
+
+function num2(){
+  
+}
